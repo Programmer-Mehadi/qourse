@@ -5,10 +5,13 @@ body {
   background-color: rgba(25, 135, 84, 0.3);
 }
 .carousel-item img {
-  height: 516px !important;
+  height: 32.25rem !important;
 }
 /* very small */
 @media screen and (max-width: 575px) {
+  .carousel-item img {
+    height: 17.25rem !important;
+  }
   .carousel-caption h1 {
     font-size: 0.8rem !important;
   }
@@ -38,6 +41,9 @@ body {
 }
 /* small device */
 @media screen and (min-width: 576px) and (max-width: 767px) {
+  .carousel-item img {
+    height: 25.25rem !important;
+  }
   .carousel-caption h1 {
     font-size: 1.3rem !important;
   }
