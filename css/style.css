@@ -16,7 +16,7 @@ body {
 }
 
 .navbar-item:hover a {
-  background-color: green;
+  background-color: #198754;
   color: white !important;
 }
 /* very small */
