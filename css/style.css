@@ -7,9 +7,19 @@ body {
 
 /* small device */
 @media screen and (min-width: 576px) and (max-width: 767px) {
+  .carousel-caption h1 {
+    font-size: 1.3rem !important;
+  }
+  .carousel-caption p {
+    font-size: 0.8rem !important;
+  }
+  .carousel-caption button {
+    font-size: 1rem !important;
+  }
+
   .courses-list .card img {
     width: 100% !important;
-    height: 17rem !important;
+    height: 23rem !important;
   }
   .feature-section div:nth-child(1),
   .feature-section div:nth-child(2),
