@@ -27,7 +27,7 @@
   </head>
   <body>
     <!-- header start -->
-    <header class="py-2">
+    <header class="sticky-top bg-light shadow">
       <nav class="navbar navbar-expand-lg">
         <div class="container container-fluid">
           <a class="navbar-brand fw-bold fs-2" href="#">
@@ -55,36 +55,52 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link px-3 text-black" aria-current="page" href="#"
+                <a
+                  class="nav-link px-3 text-black"
+                  aria-current="page"
+                  href="#courses-section"
                   >Courses</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link px-3 text-black" aria-current="page" href="#"
-                  >Deals</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-3 text-black" aria-current="page" href="#"
-                  >Success</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link px-3 text-black" aria-current="page" href="#"
+                <a
+                  class="nav-link px-3 text-black"
+                  aria-current="page"
+                  href="#about"
                   >About</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link px-3 text-black" aria-current="page" href="#"
-                  >Register</a
+                <a
+                  class="nav-link px-3 text-black"
+                  aria-current="page"
+                  href="#success"
+                  >Success</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link px-3 text-black"
+                  aria-current="page"
+                  href="#faq"
+                  >Faq</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link px-3 text-black"
+                  aria-current="page"
+                  href="#company"
+                  >Company</a
                 >
               </li>
             </ul>
-            <button
+            <a
               class="btn text-success fw-bold border border-2 border-success"
+              href="#register"
             >
               Register
-            </button>
+            </a>
           </div>
         </div>
       </nav>
@@ -92,7 +108,7 @@
     <!-- header end -->
     <main>
       <!-- Slider start -->
-      <section class="slider-part container mb-5">
+      <section class="slider-part container">
         <div
           id="carouselExampleCaptions"
           class="carousel slide"
@@ -189,8 +205,9 @@
       </section>
       <!-- SLider end -->
       <!-- Courses list start -->
-      <section class="container my-5 pt-5">
-        <h1 class="text-center fw-semibold">
+      <section class="container" id="courses-section">
+        <br /><br />
+        <h1 class="text-center fw-semibold mt-5">
           Discover Our Popular <br />
           Courses
         </h1>
@@ -239,7 +256,7 @@
             </div>
           </div>
         </div>
-        <div class="all-courses-btn d-flex justify-content-center">
+        <div class="all-courses-btn d-flex justify-content-center mb-5">
           <button class="btn btn-success text-white fw-semibold my-5 px-3">
             See More Courses
           </button>
@@ -247,117 +264,125 @@
       </section>
       <!-- Courses list end -->
       <!-- feature result start -->
-      <section
-        class="feature-section container bg-dark text-center p-5 text-white rounded-2"
-      >
-        <h1
-          class="mt-5 fw-semibold border border-3 border-start-0 border-end-0 border-top-0 w-50 pb-2 text-center mx-auto"
+      <section class="about pt-5" id="about">
+        <br />
+        <br />
+        <br />
+        <section
+          class="feature-section container bg-dark text-center p-5 text-white rounded-2"
         >
-          Why choose our platform
-        </h1>
-        <div class="row my-5 justify-content-center">
-          <div class="col-12 col-lg-3 col-md-6 col-sm-12 border-end mt-5">
-            <h1>150+</h1>
-            <h4>Online Courses</h4>
+          <h1
+            class="mt-5 fw-semibold border border-3 border-start-0 border-end-0 border-top-0 w-50 pb-2 text-center mx-auto mt-5"
+          >
+            Why choose our platform
+          </h1>
+          <div class="row my-5 justify-content-center">
+            <div class="col-12 col-lg-3 col-md-6 col-sm-12 border-end mt-5">
+              <h1>150+</h1>
+              <h4>Online Courses</h4>
+            </div>
+            <div
+              class="col-12 col-lg-3 col-md-6 col-sm-12 border-end mt-5 second-counting"
+            >
+              <h1>1,250+</h1>
+              <h4>Happy Students</h4>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 col-sm-12 border-end mt-5">
+              <h1>80+</h1>
+              <h4>Certified Teachers</h4>
+            </div>
+            <div class="col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
+              <h1>120+</h1>
+              <h4>Countries</h4>
+            </div>
+          </div>
+        </section>
+        <!-- feature result end -->
+        <!-- about us start -->
+        <section class="about-us-section container">
+          <h1 class="text-center fw-semibold pt-4">
+            Know about best online<br />learning platform
+          </h1>
+          <p class="text-center w-75 mx-auto mb-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+          </p>
+          <div
+            class="about-us-body row w-100 justify-content-center align-items-center mx-0"
+          >
+            <div class="col-12 col-lg-6">
+              <img
+                src="images/working.png"
+                class="img-fluid rounded-2 w-100"
+                alt=""
+              />
+            </div>
+            <!-- card design -->
+            <div
+              class="content row col-12 col-lg-6 gap-5 justify-content-center mt-5 mt-lg-0"
+            >
+              <div
+                class="card shadow border-0 w-100 p-4 d-flex flex-column justify-content-center"
+              >
+                <div class="d-flex align-items-center gap-2 mb-4">
+                  <i
+                    class="fa-solid fa-chalkboard-user fs-2 p-3 bg-success text-white rounded-2"
+                  ></i>
+                  <h1 class="fw-semibold fs-2">Professional Tutor</h1>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  elit tellus, luctus nec ullamcorper mattis.
+                </p>
+              </div>
+              <div
+                class="card shadow border-0 w-100 p-4 d-flex flex-column justify-content-center"
+              >
+                <div class="d-flex align-items-center gap-2 mb-4">
+                  <i
+                    class="fa-solid fa-globe fs-2 p-3 bg-success text-white rounded-2"
+                  ></i>
+                  <h1 class="fw-semibold fs-2">Online Community</h1>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  elit tellus, luctus nec ullamcorper mattis.
+                </p>
+              </div>
+              <div
+                class="card shadow border-0 w-100 p-4 d-flex flex-column justify-content-center"
+              >
+                <div class="d-flex align-items-center gap-2 mb-4">
+                  <i
+                    class="fa-solid fa-book fs-2 p-3 bg-success text-white rounded-2"
+                  ></i>
+                  <h1 class="fw-semibold fs-2">Course Guidelines</h1>
+                </div>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
+                  elit tellus, luctus nec ullamcorper mattis.
+                </p>
+              </div>
+            </div>
           </div>
           <div
-            class="col-12 col-lg-3 col-md-6 col-sm-12 border-end mt-5 second-counting"
+            class="d-flex w-75 mx-auto mt-2 mb-5 justify-content-center gap-5"
           >
-            <h1>1,250+</h1>
-            <h4>Happy Students</h4>
+            <button
+              class="btn btn-success text-white shadow my-5 px-3 fw-semibold"
+            >
+              Explore course
+            </button>
+            <button class="btn btn-outline-dark shadow my-5 px-3 fw-semibold">
+              Learn More
+            </button>
           </div>
-          <div class="col-12 col-lg-3 col-md-6 col-sm-12 border-end mt-5">
-            <h1>80+</h1>
-            <h4>Certified Teachers</h4>
-          </div>
-          <div class="col-12 col-lg-3 col-md-6 col-sm-12 mt-5">
-            <h1>120+</h1>
-            <h4>Countries</h4>
-          </div>
-        </div>
+        </section>
+        <!-- about us end -->
       </section>
-      <!-- feature result end -->
-      <!-- about us start -->
-      <section class="about-us-section my-5 container">
-        <h1 class="text-center fw-semibold my-4 pt-4">
-          Know about best online<br />learning platform
-        </h1>
-        <p class="text-center w-75 mx-auto mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-          tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-        </p>
-        <div
-          class="about-us-body row w-100 justify-content-center align-items-center mx-0"
-        >
-          <div class="col-12 col-lg-6">
-            <img
-              src="images/working.png"
-              class="img-fluid rounded-2 w-100"
-              alt=""
-            />
-          </div>
-          <!-- card design -->
-          <div
-            class="content row col-12 col-lg-6 gap-5 justify-content-center mt-5 mt-lg-0"
-          >
-            <div
-              class="card shadow border-0 w-100 p-4 d-flex flex-column justify-content-center"
-            >
-              <div class="d-flex align-items-center gap-2 mb-4">
-                <i
-                  class="fa-solid fa-chalkboard-user fs-2 p-3 bg-success text-white rounded-2"
-                ></i>
-                <h1 class="fw-semibold fs-2">Professional Tutor</h1>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis.
-              </p>
-            </div>
-            <div
-              class="card shadow border-0 w-100 p-4 d-flex flex-column justify-content-center"
-            >
-              <div class="d-flex align-items-center gap-2 mb-4">
-                <i
-                  class="fa-solid fa-globe fs-2 p-3 bg-success text-white rounded-2"
-                ></i>
-                <h1 class="fw-semibold fs-2">Online Community</h1>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis.
-              </p>
-            </div>
-            <div
-              class="card shadow border-0 w-100 p-4 d-flex flex-column justify-content-center"
-            >
-              <div class="d-flex align-items-center gap-2 mb-4">
-                <i
-                  class="fa-solid fa-book fs-2 p-3 bg-success text-white rounded-2"
-                ></i>
-                <h1 class="fw-semibold fs-2">Course Guidelines</h1>
-              </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                tellus, luctus nec ullamcorper mattis.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="d-flex w-75 mx-auto mt-2 mb-5 justify-content-center gap-5">
-          <button
-            class="btn btn-success text-white shadow my-5 px-3 fw-semibold"
-          >
-            Explore course
-          </button>
-          <button class="btn btn-outline-dark shadow my-5 px-3 fw-semibold">
-            Learn More
-          </button>
-        </div>
-      </section>
-      <!-- about us end -->
+
       <!-- Ready to join start -->
-      <section class="ready-join my-5 container shadow-lg">
+      <section class="ready-join container shadow-lg" id="register">
         <div
           class="ready-join-body p-5 bg-success row text-white rounded rounded-2"
         >
@@ -503,7 +528,7 @@
       </section>
       <!-- Ready to join end -->
       <!-- Meet student section start -->
-      <section class="student-section my-5">
+      <section class="student-section pt-5" id="success">
         <div class="container my-5 pt-5">
           <h1 class="fw-semibold">Meet Our Successfull Students</h1>
           <p class="w-75">
@@ -589,7 +614,7 @@
       </section>
       <!-- Meet student section end -->
       <!-- feedback section  start -->
-      <section class="feedback-section my-5 pt-4">
+      <section class="feedback-section">
         <div class="container">
           <h1 class="text-center fw-semibold">Some Students Feedback</h1>
           <p class="text-center w-75 mx-auto py-3">
@@ -734,9 +759,9 @@
       </section>
       <!-- feedback section  end -->
       <!-- Frequently Asked Questions start -->
-      <section class="faq mt-5 pt-5">
+      <section class="faq pt-5" id="faq">
         <div class="faq-body container w-75 m-auto">
-          <h1 class="text-center fw-semibold">
+          <h1 class="text-center fw-semibold pt-5">
             <br />Frequently Asked Questions
           </h1>
           <p class="text-center my-4 px-0 px-sm-2 px-md-4">
@@ -847,15 +872,15 @@
       </section>
       <!-- Frequently Asked Questions end -->
       <!-- company list section start -->
-      <section class="company py-5">
+      <section class="company pt-4" id="company">
         <div
           class="company-body my-5 container d-flex d-none flex-column d-md-none d-sm-none d-lg-flex"
         >
-          <h1 class="text-center mb-5 fs-2 fw-semibold">
+          <h1 class="text-center mb-5 fs-2 fw-semibold py-4">
             Our students work in companies such as
           </h1>
           <div
-            class="company-list d-flex justify-content-between g-3 flex-wrap gap-2"
+            class="company-list d-flex justify-content-between g-3 flex-wrap gap-2 mb-5"
           >
             <img src="images/company/company-1.png" alt="" /><img
               src="images/company/company-2.png"
@@ -871,7 +896,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer-section bg-dark text-white mt-5">
+    <footer class="footer-section bg-dark text-white">
       <section class="container p-5">
         <h1 class="text-center">
           <span class="text-success fs-1 fw-bold">Q</span>ourse
