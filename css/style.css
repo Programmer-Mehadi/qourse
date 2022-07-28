@@ -4,7 +4,32 @@ body {
 .feedback-slide-btn {
   background-color: rgba(25, 135, 84, 0.3);
 }
+/* very small */
+@media screen and (max-width: 575px) {
+  .carousel-caption h1 {
+    font-size: 0.8rem !important;
+  }
+  .carousel-caption p {
+    font-size: 0.6rem !important;
+  }
+  .carousel-caption button {
+    font-size: 0.5rem !important;
+    padding: 3px 5px;
+  }
 
+  .courses-list .card img {
+    width: 100% !important;
+    height: 23rem !important;
+  }
+  .feature-section div:nth-child(1),
+  .feature-section div:nth-child(2),
+  .feature-section div:nth-child(3) {
+    border-right: 0px solid #dee2e6 !important;
+  }
+  .ready-join-body p {
+    text-align: center;
+  }
+}
 /* small device */
 @media screen and (min-width: 576px) and (max-width: 767px) {
   .carousel-caption h1 {
