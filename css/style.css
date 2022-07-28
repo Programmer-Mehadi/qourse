@@ -32,13 +32,13 @@ body {
     height: 17.25rem !important;
   }
   .carousel-caption h1 {
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
   }
   .carousel-caption p {
-    font-size: 0.9rem !important;
+    font-size: 0.7rem !important;
   }
   .carousel-caption button {
-    font-size: 0.9rem !important;
+    font-size: 0.8rem !important;
     padding: 3px 5px;
   }
 
