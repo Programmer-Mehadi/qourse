@@ -5,6 +5,22 @@ body {
   background-color: rgba(25, 135, 84, 0.3);
 }
 
+/* small device */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .courses-list .card img {
+    width: 100% !important;
+    height: 17rem !important;
+  }
+  .feature-section div:nth-child(1),
+  .feature-section div:nth-child(2),
+  .feature-section div:nth-child(3) {
+    border-right: 0px solid #dee2e6 !important;
+  }
+  .ready-join-body p {
+    text-align: center;
+  }
+}
+/* medium size */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .second-counting {
     border-right: 0px solid #dee2e6 !important;
