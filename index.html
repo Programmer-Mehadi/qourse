@@ -331,9 +331,125 @@
           >
             <button
               class="btn bg-light text-success fw-semibold px-4 py-2 fs-5"
+              data-bs-toggle="modal"
+              data-bs-target="#registerform"
             >
               Register Now
             </button>
+            <div
+              class="modal fade"
+              id="registerform"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title text-dark" id="exampleModalLabel">
+                      Get in touch!
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <form class="row g-3">
+                      <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label text-dark"
+                          >Email</label
+                        >
+                        <input
+                          type="email"
+                          class="form-control"
+                          id="inputEmail4"
+                        />
+                      </div>
+                      <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label text-dark"
+                          >Password</label
+                        >
+                        <input
+                          type="password"
+                          class="form-control"
+                          id="inputPassword4"
+                        />
+                      </div>
+                      <div class="col-12">
+                        <label for="inputAddress" class="form-label text-dark"
+                          >Address</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="inputAddress"
+                          placeholder="1234 Main St"
+                        />
+                      </div>
+
+                      <div class="col-md-6">
+                        <label for="inputCity" class="form-label text-dark"
+                          >City</label
+                        >
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="inputCity"
+                        />
+                      </div>
+                      <div class="col-md-4">
+                        <label for="inputState" class="form-label text-dark"
+                          >State</label
+                        >
+                        <select id="inputState" class="form-select">
+                          <option selected>Choose...</option>
+                          <option>Dhaka</option>
+                          <option>Khulna</option>
+                          <option>Barishal</option>
+                          <option>Cumilla</option>
+                        </select>
+                      </div>
+                      <div class="col-md-2">
+                        <label for="inputZip" class="form-label text-dark"
+                          >Zip</label
+                        >
+                        <input type="text" class="form-control" id="inputZip" />
+                      </div>
+                      <div class="col-12">
+                        <div class="form-check">
+                          <input
+                            class="form-check-input"
+                            type="checkbox"
+                            id="gridCheck"
+                          />
+                          <label
+                            class="form-check-label text-dark"
+                            for="gridCheck"
+                          >
+                            Check me out
+                          </label>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-success">
+                      Register
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
