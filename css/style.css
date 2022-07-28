@@ -52,6 +52,9 @@ body {
   .ready-join-body p {
     text-align: center;
   }
+  .feature-section .heading {
+    width: 85% !important;
+  }
 }
 /* small device */
 @media screen and (min-width: 576px) and (max-width: 767px) {
