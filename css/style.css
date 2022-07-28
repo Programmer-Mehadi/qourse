@@ -26,6 +26,9 @@ body {
   .feature-section div:nth-child(3) {
     border-right: 0px solid #dee2e6 !important;
   }
+  .ready-join-body h1 {
+    text-align: center;
+  }
   .ready-join-body p {
     text-align: center;
   }
